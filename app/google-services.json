@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "494454847590",
+    "firebase_url": "https://vikranth-publishers-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "vikranth-publishers",
+    "storage_bucket": "vikranth-publishers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494454847590:android:2e2f00c315a72da455d5a7",
+        "android_client_info": {
+          "package_name": "com.KAC.vikranthpublications"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1oHwdkWYwGnaIUJhgf6cgOsZ4fnFta4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

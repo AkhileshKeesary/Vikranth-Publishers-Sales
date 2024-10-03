@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.KAC.vikranthpublications.view.fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/completedleadsFragment"
+        android:name="com.KAC.vikranthpublications.view.fragments.CompletedleadsFragment"
+        android:label="Completed Leads"
+        tools:layout="@layout/fragment_completedleads" />
+    <fragment
+        android:id="@+id/outdatedFragment"
+        android:name="com.KAC.vikranthpublications.view.fragments.OutdatedFragment"
+        android:label="Outdated Leads"
+        tools:layout="@layout/fragment_outdated" />
+    <fragment
+        android:id="@+id/catalogueFragment"
+        android:name="com.KAC.vikranthpublications.view.fragments.CatalogueFragment"
+        android:label="Catalogue"
+        tools:layout="@layout/fragment_catalogue" />
+    <fragment
+        android:id="@+id/attendanceFragment"
+        android:name="com.KAC.vikranthpublications.view.fragments.AttendanceFragment"
+        android:label="Timesheet"
+        tools:layout="@layout/fragment_attendance" />
+    <fragment
+        android:id="@+id/idcardFragment"
+        android:name="com.KAC.vikranthpublications.view.fragments.IdcardFragment"
+        android:label="Digital ID Card"
+        tools:layout="@layout/fragment_idcard" />
+</navigation>
